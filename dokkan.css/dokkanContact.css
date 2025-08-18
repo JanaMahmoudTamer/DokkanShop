@@ -1,0 +1,214 @@
+/* Navbar */
+
+nav .myContainer {
+  display: flex;
+  padding-left: 15%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 30%;
+}
+nav .myContainer .myHome {
+  color: brown !important;
+}
+nav .myContainer .myHome:hover {
+  color: white !important;
+}
+nav .myContainer .part2 a:hover {
+  background-color: brown;
+  transform: scale(0.75);
+  transition: 0.5s;
+  border-radius: 4.5em / 0.5em;
+}
+nav .myContainer .part2 .myDropdown-menu a:hover {
+  background-color: brown;
+  transform: scale(1);
+  border-radius: 0em / 0em;
+}
+nav .myContainer .part2 .myDropdown-menu .last {
+  border-bottom: solid 0.15em brown;
+}
+/* Contact */
+.contact {
+  margin-top: 150px;
+  display: flex;
+  padding: 4em;
+  gap: 4em;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.contact .place {
+  padding: 1em;
+  box-shadow: 0.15em 0.25em 0.25em 0.25em grey;
+}
+.contact .data h3 {
+  color: rgb(191, 80, 80);
+  text-decoration: underline;
+  font-size: 2em;
+}
+.contact .data p {
+  color: gray;
+  font-size: 1.5em;
+}
+/* Feedback */
+.feedback {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 2em;
+  padding: 4% 18%;
+  width: 100%;
+  height: 100%;
+}
+.feedback h1 {
+  font-weight: bold;
+  font-size: 3.25em;
+}
+.feedback p {
+  color: gray;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+.feedback .inp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 3em;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.feedback .inp input {
+  color: rgb(191, 80, 80);
+  height: 40px;
+}
+.feedback .inp textarea {
+  height: 200px;
+}
+.feedback .inp button {
+  align-self: flex-end;
+  font-size: 1.25em;
+  background-color: rgb(191, 80, 80);
+  color: white;
+  border-radius: 0.2em;
+  border: solid 0.3em rgb(191, 80, 80);
+}
+
+@media (max-width: 766px) {
+  .feedback .inp {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .feedback .inp button {
+    align-self: center;
+    width: 100%;
+  }
+  .feedback .data {
+    text-align: center;
+  }
+}
+
+/* Footer */
+a {
+  text-decoration: none;
+}
+footer {
+  background-color: #343a40 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  gap: 1em;
+}
+footer .all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  color: white;
+  padding-bottom: 2em;
+  border-bottom: solid 0.1em white;
+  gap: 4em;
+  flex-wrap: wrap;
+}
+footer .all a {
+  color: white;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+}
+footer .all a:hover {
+  color: brown;
+}
+footer .all .firstPart,
+footer .all .secondPart {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+}
+footer .all .secondPart {
+  margin-top: -2.5em;
+}
+footer .firstPart .logoicon {
+  display: flex;
+}
+footer .firstPart .shopping,
+footer .secondPart .links,
+footer .secondPart .help {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+footer .firstPart .logoicon a {
+  font-weight: 500;
+  font-size: 3em;
+}
+footer .firstPart a:hover {
+  color: brown !important;
+}
+footer .firstPart .ic {
+  font-size: 4.5em !important;
+  margin-top: 0.35em;
+}
+footer .thirdPart {
+  color: white;
+  align-self: center;
+  text-align: center;
+}
+footer .thirdPart .myface:hover {
+  color: rgb(0, 0, 126);
+}
+footer .thirdPart .mytwitter:hover {
+  color: deepskyblue;
+}
+footer .thirdPart .mywhats:hover {
+  color: green;
+}
+footer .thirdPart .myyou:hover {
+  color: red;
+}
+@media (max-width: 768px) {
+  footer .all .firstPart,
+  footer .all .secondPart {
+    flex-direction: column;
+  }
+  nav .myContainer {
+    padding-left: 1em;
+  }
+  .page2 .signIn .signInButtons {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 1200px) {
+  nav .myContainer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

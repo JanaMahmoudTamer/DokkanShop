@@ -1,0 +1,197 @@
+/* Navbar */
+
+nav .myContainer {
+  display: flex;
+  padding-left: 15%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 30%;
+}
+nav .myContainer .myHome {
+  color: brown !important;
+}
+nav .myContainer .myHome:hover {
+  color: white !important;
+}
+nav .myContainer .part2 a:hover {
+  background-color: brown;
+  transform: scale(0.75);
+  transition: 0.5s;
+  border-radius: 4.5em / 0.5em;
+}
+nav .myContainer .part2 .myDropdown-menu a:hover {
+  background-color: brown;
+  transform: scale(1);
+  border-radius: 0em / 0em;
+}
+nav .myContainer .part2 .myDropdown-menu .last {
+  border-bottom: solid 0.15em brown;
+}
+/* Img */
+
+.firstImg {
+  padding-top: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  filter: brightness(40%);
+}
+.textImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 1.5em;
+}
+/* Men Catagorie */
+.men {
+  text-align: center;
+  padding: 11%;
+}
+.men .shopIcon {
+  font-size: 1.5em;
+  padding: 0.5em 3em;
+  margin-right: 1.5em;
+  display: flex;
+  gap: 90%;
+  color: gray;
+}
+.men .shopIcon i:hover {
+  color: rgb(185, 0, 0);
+}
+.men h3 {
+  color: gray;
+}
+.men .prt1,
+.men .prt2,
+.men .prt3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5em;
+  padding-top: 2em;
+  height: 100%;
+}
+.men .prt1 .myCard:hover,
+.men .prt2 .myCard:hover,
+.men .prt3 .myCard:hover {
+  color: white;
+  background-color: black;
+  transform: scale(1.1);
+  height: 100%;
+}
+.men a {
+  margin: 3em;
+  background-color: gray;
+  border: solid 0.2em gray;
+}
+.men a:hover {
+  background-color: gray;
+  border: solid 0.2em gray;
+}
+/* Footer */
+
+a {
+  text-decoration: none;
+}
+footer {
+  background-color: #343a40 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  gap: 1em;
+}
+footer .all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  color: white;
+  padding-bottom: 2em;
+  border-bottom: solid 0.1em white;
+  gap: 4em;
+  flex-wrap: wrap;
+}
+footer .all a {
+  color: white;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+}
+footer .all a:hover {
+  color: brown;
+}
+footer .all .firstPart,
+footer .all .secondPart {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+}
+footer .all .secondPart {
+  margin-top: -2.5em;
+}
+footer .firstPart .logoicon {
+  display: flex;
+}
+footer .firstPart .shopping,
+footer .secondPart .links,
+footer .secondPart .help {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+footer .firstPart .logoicon a {
+  font-weight: 500;
+  font-size: 3em;
+}
+footer .firstPart a:hover {
+  color: brown !important;
+}
+footer .firstPart .ic {
+  font-size: 4.5em !important;
+  margin-top: 0.35em;
+}
+footer .thirdPart {
+  color: white;
+  align-self: center;
+  text-align: center;
+}
+footer .thirdPart .myface:hover {
+  color: rgb(0, 0, 126);
+}
+footer .thirdPart .mytwitter:hover {
+  color: deepskyblue;
+}
+footer .thirdPart .mywhats:hover {
+  color: green;
+}
+footer .thirdPart .myyou:hover {
+  color: red;
+}
+@media (max-width: 768px) {
+  footer .all .firstPart,
+  footer .all .secondPart {
+    flex-direction: column;
+  }
+  nav .myContainer {
+    padding-left: 1em;
+  }
+  .page2 .signIn .signInButtons {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 1200px) {
+  nav .myContainer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
