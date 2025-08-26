@@ -89,6 +89,9 @@ nav .myContainer .part2 .myDropdown-menu .last {
   .about .aboutImg {
     width: 60%;
   }
+  .about .aboutUs {
+    width: 60%;
+  }
 }
 @media (max-width: 990px) {
   .about {
@@ -96,6 +99,9 @@ nav .myContainer .part2 .myDropdown-menu .last {
     gap: 1em;
   }
   .about .aboutImg {
+    width: 100%;
+  }
+  .about .aboutUs {
     width: 100%;
   }
 }
@@ -115,6 +121,11 @@ nav .myContainer .part2 .myDropdown-menu .last {
   align-items: center;
   gap: 1em;
   text-align: center;
+}
+.team .teamDetails div {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 /* Services */
 .services {
